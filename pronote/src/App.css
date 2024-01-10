@@ -1,0 +1,29 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  height: 100%;  
+}
+.container{
+  height: 100%;
+  background-color: rgb(17, 17, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  color: white;
+}
+textarea{
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid black;
+}
+.output-text{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(69, 68, 68);
+  padding: 15px;
+  box-shadow: 10px 5px 10px 0 black;
+}
